@@ -1,0 +1,51 @@
+
+.cabecalhoDeMenu{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between
+}
+
+.pontoDeMenu{
+    margin: 5px;
+    height: 40px;
+    widht: 400px
+}
+
+.conteudosAdicionais{
+    margin-left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: red;
+    widht: 500px
+}
+
+h3{
+    font-size: 30px
+}
+
+.tituloConteudo{
+    border: 4px solid blue;
+    width: 400px;
+    height: 40px
+}
+
+#textoConteudo{
+    margin-bottom: 10px;
+    border: 4px solid blue;
+    width: 400px;
+    height: 80px
+}
+
+#conteudoAdicional{
+    display: flex;
+    justify-content: space-between
+}
+
+.historicoTotalConteudos{
+    display:flex;
+    justify-content: space-around
+   
+}
+
+
+

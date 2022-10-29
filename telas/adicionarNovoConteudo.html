@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../view/adicionarNovoConteudo.css">
+    <title>Adicionar Conteúdo</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalhoDeMenu">
+            <button class = "pontoDeMenu" id="pontoConteudoAtraso">Conteúdo Atrasado</button>
+            <button class = "pontoDeMenu" id="pontoHistórico">Histórico</button>
+            <button class = "pontoDeMenu" id="PontoEstudar">Estudar</button>
+            <button class = "pontoDeMenu" id="pontoAdicionar">Adicionar</button>
+            <button class = "pontoDeMenu" id="pontoConfiguracoes">Configurações</button>
+        </div>
+    </header>
+        <div class="conteudosAdicionais">
+            <div class="conteudoTitulo">
+                <h3>Título</h3>
+                <input type="text" class="tituloConteudo"name="tituloConteudo" id="tituloNovoConteudo" placeholder="Digite aqui seu título">
+            </div>
+            <div class="conteudoGeral">
+                <h3>Novo conteúdo</h3>
+                <input type="text" name="conteudoGeral" id="textoConteudo" placeholder="Digite aqui o conteúdo a ser estudado">
+            </div>
+            <div class="infoNovoConteudo">
+                <select name="conteudo" id="conteudoAdicional" form="conteudoForm">
+                    <option value="facil">fácil</option>
+                    <option value="medio">médio</option>
+                    <option value="dificil">Díficil</option>                 
+                </select>
+
+                
+            
+                <select name="configTempo" id="configurarTempo" form="conteudoForm">
+                    <option value="5min">5 minutos</option>
+                    <option value="10min">10 minutos</option>
+                    <option value="15min">15 minutos</option>                 
+                </select>
+
+                <button type="submit" id="send" id="submitConteudo">Submeter</button>
+            </div>
+        </div>
+
+        <script  src="../funcionalidades/Conteudo.js"></script>
+    </body>
+</body>
+</html>

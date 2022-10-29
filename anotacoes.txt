@@ -1,0 +1,14 @@
+Estrutura do projeto:
+
+Javascript
+NodeJS
+CSS
+HTML
+Banco de dados -> interno.
+
+
+Requisitos:
+
+Para tela de adicionar conteudo
+
+Título
