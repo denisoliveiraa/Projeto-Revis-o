@@ -98,6 +98,8 @@ function inserirDados(){
 }
 
 
+inserirDados()
+
 
 
     var conteudoTitulo = document.querySelector('#send')
